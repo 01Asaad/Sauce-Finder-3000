@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+    margin-left: 0px
+}
+
+p {
+    font-size: 20px;
+    color: #333;
+}
+
+h1 {
+    font-size: 48px;
+    animation: colorChange 1s infinite alternate;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+/* Limit the maximum width of the image */
+img {
+    max-width: 30%;
+    height: auto;
+}
